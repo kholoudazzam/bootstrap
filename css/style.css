@@ -1,0 +1,360 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+ .navbar {
+    border-bottom: 2px solid black;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f25454 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #282828 !important;
+    font-weight: bold !important;
+}
+.navbar-nav .nav-link{ transition: all .5s;}
+
+.navbar-nav .nav-link:hover {
+    color: #f25454 !important;
+}
+.icon i:hover {
+    color: #f25454 !important;
+   
+}
+.icon i {
+    transition: all .5s;
+}
+
+
+.caption-title {
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%);
+    font-size: 500px;
+    font-weight: bold;
+    color: white;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+.caption-title h2 {
+    font-size: 100px !important;
+    font-weight: 700 !important;
+    line-height: 1 !important;
+}
+
+.carousel-control-prev-icon {
+    padding: 20px;
+    border: 1px solid white;
+    color: white !important;
+}
+.layer-setting i {
+    background-color: #222;
+    color: white;
+    position: fixed;
+    top :40%;
+    z-index: 9999999999;
+}
+
+
+.icon-home {
+    position: relative;
+   
+}
+.animation-part {
+    
+    width: 30px;
+    height: 70px;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+
+    
+}
+.animation-part::after{
+    content: "";
+    width: 5px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    bottom:50%;
+  left: 50%;
+    transform: translate(-50%,-50%);
+    animation: mouse 2s  infinite ;
+
+}
+
+@keyframes mouse {
+    0% {bottom:20% }
+    50% { bottom: 5%}
+100% {
+    bottom:20%
+}
+}
+
+.title-section .postion-relative {
+    position: relative;
+   
+}
+.title-section h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color:rgba(231, 236, 240, 0.671);
+    transform: translate(-50%,-50%);
+
+font-size:80px ;
+
+
+
+}
+
+.title-section h2 {
+    position: relative;
+    padding: 20px;
+}
+
+.title-section h2::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: black;
+    transform : translateX(-50%);
+    transition: all 1s;
+    
+}
+
+.title-section:hover h2::after {
+    width: 85px;
+}
+
+
+
+
+
+.persentge {
+    height: 5px;
+    width: 90%;
+
+    background-color:  gray;
+}
+
+.line1 {
+    width: 85%;
+    background-color: #f25454;;
+    height: 5px;
+}
+
+.line2 {
+    width: 75%;
+    background-color: #f25454;;
+    height: 5px;
+}
+
+
+.line3 {
+    width: 50%;
+    background-color: #f25454;;
+    height: 5px;
+}
+
+.line4 {
+    width: 90%;
+    background-color: #f25454;;
+    height: 5px;
+}
+
+.team-section {
+    position: relative;
+}
+
+.layer {
+    
+    background-color: rgba(242, 84, 84, 0.85);
+    width: 100%;
+    opacity: 0;
+
+    
+
+
+}
+
+.team-section .layer {
+    transition: all 1s;
+    overflow: hidden;
+    
+}
+
+.team-section:hover .layer {
+    opacity: 1;
+    
+}
+
+.team-section:hover img {
+    transform: scale(1.1);
+}
+.team-section {
+    overflow: hidden !important;   
+}
+
+.team-section {
+    transition: all 1s;
+    overflow:hidden !important;
+}
+
+
+ .layer-forIcon i {
+    color: white !important;
+   
+}
+
+.team:hover h6 {
+    color: #f25454;
+}
+
+.team h6 {
+    transition: all 1s;
+}
+
+
+
+
+.service-section {
+    display: inline !important;
+}
+
+
+.service-icon i {
+    color: #f25454 !important;
+}
+
+
+.service-section:hover h5 {
+    color: #f25454;
+}
+
+.service-section h5 {
+    transition: all .5s;
+}
+
+
+ .carousel-item .team-text  {
+    font-size: 25px;
+    line-height: 1.5em; ;}
+
+
+    .contact-text i {
+        color: #f25454 !important;
+    }
+
+    .contact-text:hover h3 {
+        color: #f25454;
+    }
+
+    .contact-text h3 {
+        transition: all .5s;
+    }
+
+    .contact-text {
+        border-bottom: 1px solid rgba(209, 204, 204, 0.986);
+    }
+
+    .layer-in-contact i{
+        background-color: #f2545481;
+        border-radius: 50%;
+        color: white !important;
+        
+       
+    
+    }
+
+    .layer-in-contact{
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%,50%);
+    }
+
+    .for-icon{
+        position: relative;
+    }
+
+.footer h5 {
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #222;
+    background-image: url(../images/dotted-map.png);
+    background-size: contain;
+    background-position: 100% 100%;
+    
+}
+
+.footer-menu li {
+list-style-type: none;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: rgb(153,153,153);
+   
+}
+
+
+.footer-menu a:hover {
+    color: #f25454 !important;
+   
+
+}
+
+
+.text-footer  button {
+    color: rgb(153,153,153) !important;
+    border: 1px solid rgb(153,153,153);
+    
+}
+
+.text-footer p 
+{
+    color: rgb(153,153,153) !important;
+}
+
+.text-footer button:hover {
+    color: #f25454 !important;
+    border:1px solid #f25454 !important;
+}
+
+
+.footer-copyright {
+    background-color: 1a1a1a;
+    color: rgb(153,153,153);
+}
+
+.footer-copyright i {
+    color: white;
+}
+
+.footer-copyright i:hover {
+    color: #f25454;
+}
+
+.footer-copyright span {
+    color: white;
+    font-weight: bold;
+    
+}
+
